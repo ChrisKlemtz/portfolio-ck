@@ -1,0 +1,89 @@
+/* About Section Styling */
+.about-section {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .title-underline {
+    width: 80px;
+    height: 4px;
+    background: #3498db;
+    margin: 0 auto 2rem;
+  }
+  
+  .profile-image-wrapper {
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .about-heading {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-text {
+    color: #555;
+    line-height: 1.8;
+    font-size: 1.1rem;
+  }
+  
+  .subsection-title {
+    color: #2c3e50;
+    margin: 2rem 0 1rem;
+  }
+  
+  /* Skills Tags */
+  .skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .skill-tag {
+    background: #3498db;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Anpassungen */
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 2rem 0;
+    }
+    
+    .section-title {
+      font-size: 2rem;
+    }
+    
+    .profile-image {
+      max-width: 200px;
+    }
+    
+    .about-text {
+      font-size: 1rem;
+    }
+  }
